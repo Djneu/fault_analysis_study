@@ -1,0 +1,11 @@
+**** Parameters and thresholds used when running the analysis ****
+
+**Note: image data from paraview needs to be extracted into CSV files to run analysis
+
+XPIX=2880                  # X pixels from paraview export
+Xlength=450                # Length of exported window in km
+YPIX=448                   # Y pixels from paraview export
+STRAIN_RATE_FACTOR=0.1     # Threshold for factor of plastic strain to include.
+MINDISTANCE=1.5            # Minimum distance to correlate points from skeletonize to a fault.
+RAD=5                      # Radius in pixels to correlate faults through time             
+min_fault_length=1.5       # Threshold for minimum fault length in km
